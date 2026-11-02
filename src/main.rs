@@ -18,6 +18,7 @@ use tokio::task::JoinSet;
 #[derive(Parser)]
 #[command(
     name = "bonii",
+    version,
     about = "ボニー (bonii) — 检查项目/包名在 GitHub、各语言包管理仓库和发行版仓库中是否已被占用"
 )]
 struct Args {

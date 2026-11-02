@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="appicon.svg" width="180" alt="ボニー 吉祥物" />
+  <img src="https://raw.githubusercontent.com/Sheyiyuan/bonii/main/appicon.svg" width="180" alt="ボニー 吉祥物" />
 </p>
 
 <h1 align="center">ボニー &emsp; BONII</h1>
@@ -7,6 +7,8 @@
 <p align="center"><strong>一次查询，并行查清一个名字在各处是否已被占用。</strong></p>
 
 <p align="center">
+  <img alt="CI" src="https://github.com/Sheyiyuan/bonii/actions/workflows/ci.yml/badge.svg" />
+  <img alt="crates.io" src="https://img.shields.io/crates/v/bonii" />
   <img alt="Rust 2024" src="https://img.shields.io/badge/rust-2024-orange?logo=rust" />
   <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-blue" />
 </p>
@@ -29,10 +31,8 @@
 ## 快速开始
 
 ```bash
-git clone <repo> bonii
-cd bonii
-cargo build --release
-./target/release/bonii bonnie
+cargo install bonii
+bonii bonnie
 ```
 
 示例（`--no-variants` 让 AUR 只显示裸名）：
@@ -56,9 +56,51 @@ GitHub repos   bonnie       占用    至少 22 个同名仓库: arctic-hen7/bon
 
 ## 安装
 
+### cargo（推荐）
+
 ```bash
-cargo install --path .
+cargo install bonii
 ```
+
+二进制装到 `~/.cargo/bin/bonii`。需要 Rust 1.85+（项目使用 edition 2024）。想直接跟踪 main 分支可以改成从仓库安装：
+
+```bash
+cargo install --git https://github.com/Sheyiyuan/bonii --locked
+```
+
+### 预编译二进制（Linux / macOS）
+
+```bash
+curl -fsSLO https://github.com/Sheyiyuan/bonii/releases/latest/download/install.sh
+sh install.sh
+```
+
+脚本会选对应平台的 release 产物、校验 SHA256，默认装到 `~/.local/bin`；如果该目录不在 `PATH` 里，会按登录 shell 写入对应配置（用 `--no-path` 关闭）。也可指定版本或前缀：
+
+```bash
+sh install.sh --version v0.1.0
+sudo sh install.sh --prefix /usr/local
+```
+
+卸载用 `sh install.sh --uninstall`，会同时移除脚本写入的 PATH 配置。Windows 请直接下载 release 里的 `bonii_<version>_windows_amd64.zip`。
+
+### 从源码
+
+```bash
+git clone https://github.com/Sheyiyuan/bonii && cd bonii
+cargo build --release
+./target/release/bonii bonnie
+```
+
+### 平台支持
+
+| 平台    | 架构                     | 产物                 |
+| ------- | ------------------------ | -------------------- |
+| Linux   | x86_64 / aarch64         | musl 静态链接 tar.gz |
+| macOS   | Intel / Apple Silicon    | tar.gz               |
+| Windows | x86_64                   | zip                  |
+
+### GitHub 查询
 
 只依赖 Rust 工具链。GitHub 部分可选地复用已登录的 `gh` CLI（推荐，限额更高）：
 
@@ -195,4 +237,4 @@ src/
 
 ## 许可证
 
-MIT，见 [LICENSE](LICENSE)。
+MIT，见 [LICENSE](https://github.com/Sheyiyuan/bonii/blob/main/LICENSE)。
