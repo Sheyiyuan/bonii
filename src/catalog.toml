@@ -1,0 +1,104 @@
+# ボニー (bonii) source catalog.
+#
+# Every source is a declarative contract: how to build the query URL, how to
+# normalise the name for this ecosystem, where in the response to look, and what
+# counts as "taken". Hit decision is deliberately not "HTTP status != 200"
+# everywhere — AUR answers HTTP 200 with resultcount 0 for a free name.
+
+[user_agent]
+string = "bonii/0.1 name availability checker"
+
+[[source]]
+id = "pypi"
+label = "PyPI"
+query = "https://pypi.org/pypi/{name}/json"
+normalize = "pep503"
+hit = "nonempty"
+info = ["info.summary", "info.author"]
+
+[[source]]
+id = "npm"
+label = "npm"
+query = "https://registry.npmjs.org/{name}"
+normalize = "npm"
+shape = "both"
+encode = true
+hit = "nonempty"
+info = ["description"]
+
+[[source]]
+id = "crates"
+label = "crates.io"
+query = "https://crates.io/api/v1/crates/{name}"
+normalize = "crates"
+hit = "nonempty"
+info = ["crate.description", "crate.updated_at"]
+
+[[source]]
+id = "rubygems"
+label = "RubyGems"
+query = "https://rubygems.org/api/v1/gems/{name}.json"
+hit = "nonempty"
+info = ["info"]
+
+[[source]]
+id = "nuget"
+label = "NuGet"
+query = "https://api.nuget.org/v3-flatcontainer/{name}/index.json"
+normalize = "lower"
+hit = "status_ok"
+
+[[source]]
+id = "homebrew"
+label = "Homebrew"
+query = "https://formulae.brew.sh/api/formula/{name}.json"
+normalize = "lower"
+hit = "nonempty"
+info = ["desc", "homepage"]
+
+[[source]]
+id = "arch"
+label = "Arch official"
+query = "https://archlinux.org/packages/search/json/?name={name}"
+normalize = "lower"
+extract = "results"
+hit = "nonempty"
+info = ["results.0.pkgname", "results.0.repo"]
+
+[[source]]
+id = "aur"
+label = "AUR"
+query = "https://aur.archlinux.org/rpc/v5/info/{name}"
+normalize = "lower"
+extract = "resultcount"
+hit = { greater = 0 }
+info = ["results.0.Description", "results.0.Maintainer"]
+variants = ["git", "bin", "nightly", "appimage", "desktop"]
+fuzzy = { endpoint = "https://aur.archlinux.org/rpc/v5/suggest/{name}", extract = "root", verify = "aur", label = "近似", note = "近似名已存在，易被误认或卷入 typosquat 争议" }
+
+[[source]]
+id = "packagist"
+label = "Packagist"
+query = "https://packagist.org/packages/{name}.json"
+normalize = "lower"
+shape = "pathed"
+hit = "nonempty"
+info = ["package.description"]
+
+[[source]]
+id = "gomod"
+label = "Go module"
+query = "https://proxy.golang.org/{name}/@v/list"
+normalize = "lower"
+shape = "pathed"
+require_host = true
+hit = "status_ok"
+
+[[source]]
+id = "github"
+label = "GitHub repos"
+kind = "github"
+shape = "bare"
+normalize = "lower"
+# unused: the github path implements its own exact-name matching
+hit = "nonempty"
