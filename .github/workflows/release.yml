@@ -174,7 +174,7 @@ jobs:
           tag_name: ${{ env.TAG }}
           name: bonii ${{ env.TAG }}
           generate_release_notes: true
-          append_body: |
+          body: |
             ## 安装
 
             ```bash
@@ -187,6 +187,8 @@ jobs:
             curl -fsSLO https://github.com/Sheyiyuan/bonii/releases/latest/download/install.sh
             sh install.sh
             ```
+
+            Windows 用户请下载 `bonii_<version>_windows_amd64.zip`。所有产物见下方 `checksums.txt`。
           files: |
             dist/*.tar.gz
             dist/*.zip

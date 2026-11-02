@@ -235,6 +235,12 @@ src/
   util.rs        Hit 反序列化、截断、百分号编码
 ```
 
+### 发布
+
+1. 修改 `Cargo.toml` 里的 `version` 并提交。
+2. 打 tag 并推送：`git tag v0.1.1 && git push origin main v0.1.1`。
+3. tag 触发 [Release](.github/workflows/release.yml)：跑检查，构建 Linux / macOS / Windows 五个产物，创建 GitHub Release，并用仓库 secret `CARGO_REGISTRY_TOKEN` 发布到 crates.io（该版本已存在时自动跳过）。
+
 ## 许可证
 
 MIT，见 [LICENSE](https://github.com/Sheyiyuan/bonii/blob/main/LICENSE)。
