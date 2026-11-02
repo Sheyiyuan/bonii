@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2048"
+   height="2048"
+   viewBox="0 0 1024 1024"
+   role="img"
+   aria-labelledby="title description"
+   version="1.1"
+   id="svg37"
+   sodipodi:docname="appicon.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview37"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.38720703"
+     inkscape:cx="1024"
+     inkscape:cy="1022.7087"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="hand" />
+  <title
+     id="title">粉色领带与黑色肩饰的放大镜少女</title>
+  <desc
+     id="description">参考第一张图片重新绘制的可编辑矢量插画。保留灰紫长发、深色帽子、金色帽徽、梅花发饰与粉色放大镜，移除顶部问号，放大人物，并参考第二张图片添加粉色领带和黑色肩部装饰。所有造型均为原生 SVG 路径，无内嵌位图。</desc>
+  <defs
+     id="defs27">
+    <radialGradient
+       id="background"
+       cx="49%"
+       cy="43%"
+       r="76%">
+      <stop
+         offset="0"
+         stop-color="#eee5e0"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#e4dad6"
+         id="stop2" />
+    </radialGradient>
+    <linearGradient
+       id="hat"
+       x1="320"
+       y1="334"
+       x2="735"
+       y2="571"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#4b4b5b"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#494856"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="hat-band"
+       x1="458"
+       y1="385"
+       x2="568"
+       y2="575"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#5b596b"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#565366"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="gold"
+       x1="638"
+       y1="362"
+       x2="687"
+       y2="466"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#edc68e"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#eabd85"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="hair"
+       x1="382"
+       y1="426"
+       x2="675"
+       y2="956"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#d7cbd3"
+         id="stop9" />
+      <stop
+         offset="1"
+         stop-color="#cec5d1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="hair-back"
+       x1="744"
+       y1="579"
+       x2="757"
+       y2="982"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#d4c9d3"
+         id="stop11" />
+      <stop
+         offset="1"
+         stop-color="#d1c7d3"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       id="hair-shadow"
+       x1="402"
+       y1="648"
+       x2="568"
+       y2="996"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#a59fb4"
+         id="stop13" />
+      <stop
+         offset="1"
+         stop-color="#9e99af"
+         id="stop14" />
+    </linearGradient>
+    <radialGradient
+       id="skin"
+       cx="45%"
+       cy="55%"
+       r="76%">
+      <stop
+         stop-color="#ffe7d4"
+         id="stop15" />
+      <stop
+         offset="1"
+         stop-color="#ffe1cc"
+         id="stop16" />
+    </radialGradient>
+    <linearGradient
+       id="shirt"
+       x1="399"
+       y1="831"
+       x2="587"
+       y2="1000"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#fff0df"
+         id="stop17" />
+      <stop
+         offset="1"
+         stop-color="#fdecda"
+         id="stop18" />
+    </linearGradient>
+    <linearGradient
+       id="eyes"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#fa8d90"
+         id="stop19" />
+      <stop
+         offset="1"
+         stop-color="#f68588"
+         id="stop20" />
+    </linearGradient>
+    <linearGradient
+       id="lens"
+       x1="191"
+       y1="586"
+       x2="349"
+       y2="742"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#f1e8e4"
+         id="stop21" />
+      <stop
+         offset=".55"
+         stop-color="#efe6e2"
+         id="stop22" />
+      <stop
+         offset="1"
+         stop-color="#ece3df"
+         id="stop23" />
+    </linearGradient>
+    <linearGradient
+       id="pink-rim"
+       x1="194"
+       y1="566"
+       x2="354"
+       y2="757"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#d97f8e"
+         id="stop24" />
+      <stop
+         offset="1"
+         stop-color="#d77d8d"
+         id="stop25" />
+    </linearGradient>
+    <linearGradient
+       id="flower"
+       x1="680"
+       y1="523"
+       x2="728"
+       y2="604"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#df8791"
+         id="stop26" />
+      <stop
+         offset="1"
+         stop-color="#e6818b"
+         id="stop27" />
+    </linearGradient>
+    <clipPath
+       id="portrait-crop">
+      <path
+         d="M130 300H900V1000H130Z"
+         id="path27" />
+    </clipPath>
+  </defs>
+  <g
+     id="background-layer"
+     inkscape:groupmode="layer"
+     inkscape:label="背景 · 暖米色" />
+  <!-- Enlarged composition: 130% of the reference silhouette, question mark removed. -->
+  <g
+     id="character"
+     inkscape:groupmode="layer"
+     inkscape:label="人物 · 放大 130%"
+     transform="translate(-151 -342) scale(1.3)"
+     clip-path="url(#portrait-crop)">
+    <g
+       id="back-hair"
+       inkscape:label="后发">
+      <path
+         fill="url(#hair-shadow)"
+         d="M303 562C351 497 425 467 515 472C610 474 664 524 679 607C683 663 681 722 696 785C719 871 713 950 685 1000H306C278 963 259 917 264 857C269 793 296 727 295 658Z"
+         id="path29" />
+      <path
+         fill="url(#hair-back)"
+         d="M686 555C738 545 786 577 821 616C854 654 869 704 866 744C865 765 858 787 850 799C853 783 852 771 848 756C845 791 820 824 778 837C791 880 787 923 772 959C766 975 756 989 746 1000H678C701 960 708 916 707 879C706 844 697 804 688 768C677 722 670 661 673 615Z"
+         id="path30" />
+      <path
+         fill="#9e98ae"
+         d="M778 748C778 766 771 785 762 797C758 788 757 778 758 766C766 760 772 755 778 748Z"
+         id="path31" />
+      <path
+         fill="url(#hair)"
+         d="M293 656C278 704 258 761 247 817C235 872 246 924 271 962C281 978 291 991 304 1000H354C334 960 322 919 321 876C320 829 335 790 346 749L350 670Z"
+         id="path32" />
+    </g>
+    <g
+       id="uniform"
+       inkscape:label="米白上衣 · 黑色肩饰 · 粉色领带">
+      <path
+         id="shirt-body"
+         fill="url(#shirt)"
+         d="M344 1000C353 942 368 895 396 862C413 842 440 829 468 823C483 835 522 840 537 823C563 828 585 840 604 861C634 896 655 945 665 1000Z" />
+      <path
+         id="neck"
+         fill="#f4c6ae"
+         d="M470 785H533L537 829C532 839 519 844 504 844C488 844 475 840 465 832Z" />
+      <!-- Flat color blocks match the quiet, soft shapes of the reference. -->
+      <g
+         id="black-shoulder-ornaments">
+        <path
+           id="left-shoulder"
+           fill="#403e48"
+           d="M466 824C443 828 420 839 405 852C390 864 380 883 373 905L410 924C423 900 439 876 459 860L478 846Z" />
+        <path
+           id="right-shoulder"
+           fill="#403e48"
+           d="M540 825C563 829 589 842 607 861C620 874 630 891 639 912L601 933C588 908 571 881 550 863L530 846Z" />
+      </g>
+      <g
+         id="collar">
+        <path
+           fill="#fff3e5"
+           d="M466 825C475 840 490 847 502 850L477 881C464 872 454 860 448 847Z"
+           id="path33" />
+        <path
+           fill="#fff3e5"
+           d="M538 825C530 839 515 847 502 850L531 881C542 870 551 857 556 847Z"
+           id="path34" />
+      </g>
+      <g
+         id="pink-necktie">
+        <path
+           id="tie-blade"
+           fill="#df87a1"
+           d="M491 878H510L523 967L502 991L480 968Z" />
+        <path
+           id="tie-knot"
+           fill="#e591aa"
+           d="M490 850H511L520 860L512 882H490L482 860Z" />
+      </g>
+    </g>
+    <g
+       id="hat-group"
+       inkscape:label="深紫帽子 · 金色帽徽">
+      <path
+         id="hat-crown"
+         fill="url(#hat)"
+         d="M273 494C267 459 285 424 315 396C364 350 422 326 485 322C552 317 616 333 667 362C718 391 753 431 771 479C780 504 784 532 778 558L717 582L301 576Z" />
+      <path
+         id="gold-hat-badge"
+         fill="url(#gold)"
+         d="M623 362C633 361 645 362 656 367L668 395L677 386C684 386 695 391 699 397C702 405 697 414 691 420C701 426 710 435 715 444C711 454 705 462 698 468L613 414C611 404 620 399 632 395C627 384 624 373 623 362Z" />
+      <path
+         id="hat-band-shape"
+         fill="url(#hat-band)"
+         d="M249 553C264 492 302 444 357 416C405 390 454 380 499 386C556 387 614 410 659 440C719 479 772 532 793 587C766 573 739 568 716 567L663 552L318 590Z" />
+    </g>
+    <g
+       id="face"
+       inkscape:label="脸部 · 珊瑚粉眼睛">
+      <path
+         id="right-ear"
+         fill="url(#skin)"
+         d="M664 666C682 663 699 675 708 689C718 707 713 727 701 742C694 750 684 755 674 758L660 737Z" />
+      <path
+         id="face-base"
+         fill="url(#skin)"
+         d="M324 608C339 516 408 457 495 452C581 448 650 506 670 600C677 635 677 675 669 712C656 774 589 812 508 812C434 813 378 781 358 725C346 691 337 645 324 608Z" />
+      <rect
+         id="left-eye"
+         x="395"
+         y="632"
+         width="53"
+         height="94"
+         rx="26.5"
+         fill="url(#eyes)" />
+      <rect
+         id="right-eye"
+         x="555.5"
+         y="633"
+         width="53"
+         height="93"
+         rx="26.5"
+         fill="url(#eyes)" />
+    </g>
+    <g
+       id="front-hair"
+       inkscape:label="刘海 · 两侧发束">
+      <path
+         id="fringe-and-right-lock"
+         fill="url(#hair)"
+         d="M286 566C311 489 374 435 440 422C505 408 563 425 606 450C652 478 683 515 692 556C699 588 695 622 689 657C690 706 681 756 662 800C644 840 614 868 574 879C598 854 615 815 625 773C632 737 636 695 634 659C596 632 564 593 544 546C544 579 547 614 554 644C526 646 503 632 487 612C489 626 493 642 498 650C470 642 450 624 438 598C427 575 423 547 425 516C404 551 385 594 370 632L347 693L297 685Z" />
+      <path
+         id="left-front-lock"
+         fill="url(#hair)"
+         d="M310 643C298 693 306 740 329 786C349 827 377 859 390 895C403 930 394 967 376 1000H396C416 971 422 937 412 903C401 864 382 823 372 782C365 753 363 725 368 692L364 651Z" />
+      <path
+         id="right-side-soft-shadow"
+         fill="#c6bece"
+         opacity=".37"
+         d="M695 594C713 626 727 666 736 707C735 664 725 622 711 594Z" />
+    </g>
+    <g
+       id="plum-blossom"
+       inkscape:label="粉色梅花发饰">
+      <path
+         fill="url(#flower)"
+         stroke="#403e45"
+         stroke-width="10"
+         stroke-linejoin="round"
+         d="M690 534C694 518 710 512 723 519C737 525 742 541 734 553C748 556 754 569 749 582C745 596 729 602 717 595C712 608 699 612 686 606C675 601 669 589 674 577C660 574 654 562 659 550C663 536 677 529 690 534Z"
+         id="path35" />
+    </g>
+    <g
+       id="magnifying-glass"
+       inkscape:label="粉色放大镜">
+      <path
+         id="magnifier-handle"
+         fill="#c27388"
+         d="M280 770L307 763L348 923C351 933 345 940 336 942C327 944 319 939 317 930Z" />
+      <circle
+         id="lens-glass"
+         cx="273"
+         cy="663"
+         r="105.5"
+         fill="url(#lens)" />
+      <circle
+         id="lens-rim"
+         cx="273"
+         cy="663"
+         r="105.5"
+         fill="none"
+         stroke="url(#pink-rim)"
+         stroke-width="19.5" />
+    </g>
+    <g
+       id="hand"
+       inkscape:label="握镜的手">
+      <path
+         fill="#f8d1b9"
+         d="M331 820C340 816 348 821 352 830C356 839 352 848 343 855L328 845Z"
+         id="path36"
+         style="fill:#df87a1;fill-opacity:1" />
+      <path
+         fill="url(#skin)"
+         d="m 309,804 c -21,0 -40,13 -44,28 -6,16 1,44 13,62 8,12 21,15 34,11 14,-2 26,-9 33,-21 6,-12 3,-24 -4,-31 6,-9 5,-19 -3,-25 -2,-15 -11,-24 -29,-24 z"
+         id="path37"
+         style="fill:#241c1c"
+         sodipodi:nodetypes="scsccccs" />
+    </g>
+  </g>
+</svg>
